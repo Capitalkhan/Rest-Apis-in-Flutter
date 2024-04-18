@@ -44,6 +44,7 @@ class UserApiView extends StatelessWidget {
                   color: Colors.cyanAccent,
                   child: Column(
                     children: [
+
                       "${snapShot.data?[index].id}".text.make(),
                       "${snapShot.data?[index].address?.street}".text.make(),
                       "${snapShot.data?[index].address?.geo?.lat}".text.make(),
